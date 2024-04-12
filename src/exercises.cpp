@@ -20,8 +20,8 @@ void exercise_2(string s1) {
   string caracter;
     for(int i=0; i<s1.size(); ++i ){
     caracter = s1[i];
-    if (caracter == ' ') {
-      word = word + ']';
+    if (caracter == " ") {
+      word = word + "]";
       cout << word << endl;
     }
     else {
