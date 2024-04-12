@@ -22,7 +22,6 @@ void exercise_2(string s1) {
     caracter = s1[i];
     if (caracter == " ") {
       word = word + "]";
-      cout << word << endl;
     }
     else {
       word = word + caracter;
