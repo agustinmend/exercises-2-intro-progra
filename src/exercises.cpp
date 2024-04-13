@@ -153,7 +153,7 @@ long exercise_13(int n, int k) {
   for ( int i = 1 ; i <= n ; ++i) {
     int result = 0;
     result = result + pow( i , k);
-    if ( i == k) {
+    if ( i == n) {
       cout << result << endl;
     } 
   }
