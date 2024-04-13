@@ -92,7 +92,7 @@ int exercise_6(int n) {
   // TODO: YOUR CODE HERE
   if (n > 0) {
     string n1 = to_string(n);
-    for (int i = 0; i <= n1.size() ; ++i)
+    for (int i = 0; i <= n1.size() ; ++i) {
     string caracter;
     caracter = n1[i];
     int caracter1 = stoi(caracter);
