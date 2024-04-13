@@ -56,6 +56,20 @@ void exercise_3(string s1) {
 
 void exercise_4(int n) {
   // TODO: YOUR CODE HERE
+  if (n >= 0 && n<=14) {
+    int i = n-1
+    for ( i ; i > 0 ; --i) {
+      int result;
+      result= n*i;
+    }
+    cout << result << endl;
+  }
+  else if (n > 14 ) {
+    cout << "El numero es muy grande. Intentelo de nuevo" << endl;
+  }
+  else {
+    cout <<"El numero es negativo. Intentelo de nuevo" << endl;
+  }
 }
 
 void exercise_5(int n, int k) {
