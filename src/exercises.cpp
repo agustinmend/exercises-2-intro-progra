@@ -112,7 +112,7 @@ void exercise_7(int n) {
   double result;
   result = 0;
   for(int i = 1; i <= n ; ++i) {
-    result = result + (pow(-1 , i)/i);
+    result = result + ((-1) * pow(-1 , i)/i);
     if (i == n) {
       cout << result << endl;
     }
