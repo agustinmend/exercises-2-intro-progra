@@ -16,18 +16,17 @@ void exercise_1(string s1) {
 
 void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
-  string word = "[";
+  string word ="";
   string caracter;
     for(int i=0; i<s1.size(); ++i ){
     caracter = s1[i];
     if (caracter == " ") {
-      word = word + "]";
+      cout << "[" << word << "]" << endl ;
     }
     else {
       word = word + caracter;
     }
   }
-  cout << word << endl;
   
 }
 
