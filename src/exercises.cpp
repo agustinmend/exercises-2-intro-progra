@@ -39,7 +39,8 @@ void exercise_2(string s1) {
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
   for ( int i = 0 ; i <= s1.size(); ++i) {
-    string caracter = s1[i];
+    string caracter;
+    caracter = s1[i];
     if (s1.size() < 11) {
       if (caracter ==" ") {
         cout <<"";
