@@ -91,7 +91,7 @@ void exercise_5(int n, int k) {
 int exercise_6(int n) {
   // TODO: YOUR CODE HERE
   if (n > 0) {
-    string n1 = to_string(n)
+    string n1 = to_string(n);
     for (int i = 0; i <= n1.size() ; ++i)
     int caracter;
     caracter = n1[i];
