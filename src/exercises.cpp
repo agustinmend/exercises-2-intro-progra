@@ -50,7 +50,6 @@ void exercise_3(string s1) {
       }
       else {
         cout << "Sin pastel :(";
-        break;
       }
     }
   }
