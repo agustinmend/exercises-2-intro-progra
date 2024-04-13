@@ -61,9 +61,11 @@ void exercise_4(int n) {
     i = n-1;
     int result;
     result = n* i;
-    for ( i - 1 ; i > 0 ; --i) {
-      result= result * i;
-      if (i == 1) {
+    int factor;
+    factor = i - 1
+    for ( factor ; factor > 0 ; --factor) {
+      result= result * factor;
+      if (factor == 1) {
         cout << result << endl;
       }
     }
