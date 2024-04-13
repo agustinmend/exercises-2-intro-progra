@@ -18,9 +18,11 @@ void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
   string word ="";
   string caracter;
+  int fin;
+  fin = s1.size() - 1;
     for(int i=0; i<s1.size(); ++i ){
     caracter = s1[i];
-    if (caracter == " ") {
+    if (caracter == " " || i == fin) {
       cout << "[" << word << "]" << endl ;
     }
     else {
