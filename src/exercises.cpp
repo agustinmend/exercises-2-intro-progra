@@ -60,8 +60,9 @@ void exercise_4(int n) {
     int i;
     i = n-1;
     int result;
-    for ( i ; i > 0 ; --i) {
-      result= n*i;
+    result = n* i;
+    for ( i - 1 ; i > 0 ; --i) {
+      result= result * i
       if (i == 1) {
         cout << result << endl;
       }
