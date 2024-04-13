@@ -56,7 +56,7 @@ void exercise_3(string s1) {
 
 void exercise_4(int n) {
   // TODO: YOUR CODE HERE
-  if (n >= 0 && n<=14 && n != 1) {
+  if (n > 0 && n<=14 && n != 1) {
     int i;
     i = n-1;
     int result;
@@ -74,6 +74,9 @@ void exercise_4(int n) {
     cout << "El numero es muy grande. Intentelo de nuevo" << endl;
   }
   else if (n == 1) {
+    cout << "1" << endl;
+  }
+  else if ( n == 0) {
     cout << "1" << endl;
   }
   else {
