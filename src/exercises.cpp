@@ -20,7 +20,7 @@ void exercise_2(string s1) {
   string caracter;
   int fin;
   fin = s1.size() - 1;
-    for(int i=0; i<s1.size(); ++i ){
+    for(int i=0; i<=s1.size(); ++i ){
     caracter = s1[i];
     if (caracter == " " || i == fin) {
       cout << "[" << word << "]" << endl ;
