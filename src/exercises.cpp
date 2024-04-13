@@ -62,7 +62,7 @@ void exercise_4(int n) {
     int result;
     result = n* i;
     int factor;
-    factor = i - 1
+    factor = i - 1;
     for ( factor ; factor > 0 ; --factor) {
       result= result * factor;
       if (factor == 1) {
