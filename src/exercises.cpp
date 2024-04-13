@@ -90,6 +90,17 @@ void exercise_5(int n, int k) {
 
 int exercise_6(int n) {
   // TODO: YOUR CODE HERE
+  if (n > 0) {
+    for (int i = 0; i <= n.size() ; ++1)
+    int caracter;
+    caracter = n[i];
+    int result;
+    result = 0;
+    result = result + caracter;
+    if ( i == n.size()) {
+      cout << result << endl;
+    }
+  }
   return 0;
 }
 
