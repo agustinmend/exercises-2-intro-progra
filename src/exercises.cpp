@@ -59,8 +59,8 @@ void exercise_4(int n) {
   if (n >= 0 && n<=14) {
     int i;
     i = n-1;
+    int result;
     for ( i ; i > 0 ; --i) {
-      int result;
       result= n*i;
     }
     cout << result << endl;
