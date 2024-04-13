@@ -116,6 +116,9 @@ void exercise_7(int n) {
     if (i == n) {
       cout << result << endl;
     }
+    else {
+      cout << "0" << endl;
+    }
   }
 }
 
