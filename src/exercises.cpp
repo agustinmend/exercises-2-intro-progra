@@ -95,7 +95,7 @@ int exercise_6(int n) {
     for (int i = 0; i <= n1.size() ; ++i) {
     char caracter;
     caracter = n1[i];
-    int caracter1 = atof(caracter);
+    int caracter1 = (caracter);
     int result;
     result = 0;
     result = result + caracter1;
