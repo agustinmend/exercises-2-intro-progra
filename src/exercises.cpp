@@ -16,7 +16,7 @@ void exercise_1(string s1) {
 
 void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
-  string word ="[";
+  string word ="";
   string caracter;
   int fin;
   fin = s1.size();
