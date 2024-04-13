@@ -16,18 +16,18 @@ void exercise_1(string s1) {
 
 void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
-  string word ="";
+  string word ="[";
   string caracter;
   int fin;
   fin = s1.size();
     for(int i=0; i<=s1.size(); ++i ){
     caracter = s1[i];
-    if (caracter == " " || i == fin) {
-      cout << "[" << word << "]" << endl ;
-      word = "";
+    if (s1 == "" || s1 == " ") {
+      cout << "";
     }
-    else if (s1 == " ") {
-      cout <<"";
+    else if (caracter == " " || i == fin) {
+      cout << "["<< word << "]" << endl ;
+      word = "";
     }
     else {
       word = word + caracter;
