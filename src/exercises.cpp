@@ -19,7 +19,7 @@ void exercise_2(string s1) {
   string word ="";
   string caracter;
   int fin;
-  fin = s1.size() - 1;
+  fin = s1.size();
     for(int i=0; i<=s1.size(); ++i ){
     caracter = s1[i];
     if (caracter == " " || i == fin) {
