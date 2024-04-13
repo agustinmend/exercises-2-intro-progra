@@ -57,7 +57,8 @@ void exercise_3(string s1) {
 void exercise_4(int n) {
   // TODO: YOUR CODE HERE
   if (n >= 0 && n<=14) {
-    int i = n-1
+    int i;
+    i = n-1
     for ( i ; i > 0 ; --i) {
       int result;
       result= n*i;
