@@ -62,7 +62,7 @@ void exercise_4(int n) {
     int result;
     result = n* i;
     for ( i - 1 ; i > 0 ; --i) {
-      result= result * i
+      result= result * i;
       if (i == 1) {
         cout << result << endl;
       }
