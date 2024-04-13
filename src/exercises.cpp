@@ -109,6 +109,14 @@ int exercise_6(int n) {
 
 void exercise_7(int n) {
   // TODO: YOUR CODE HERE
+  double result;
+  result = 0;
+  for(int i = 1; i <= n ; ++i) {
+    result = result + (pow(-1 , i)/i);
+    if (i == n) {
+      cout << result << endl;
+    }
+  }
 }
 
 void exercise_8(string s) {
