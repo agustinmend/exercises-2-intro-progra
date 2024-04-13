@@ -93,9 +93,9 @@ int exercise_6(int n) {
   if (n > 0) {
     string n1 = to_string(n);
     for (int i = 0; i <= n1.size() ; ++i) {
-    string caracter;
+    char caracter;
     caracter = n1[i];
-    int caracter1 = atoi(string caracter);
+    int caracter1 = atof(caracter);
     int result;
     result = 0;
     result = result + caracter1;
