@@ -102,6 +102,7 @@ int exercise_6(int n) {
     if ( i == n1.size()) {
       cout << result << endl;
     }
+    }
   }
   return 0;
 }
