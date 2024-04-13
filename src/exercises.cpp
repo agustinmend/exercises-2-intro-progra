@@ -48,7 +48,7 @@ void exercise_3(string s1) {
         cout << "Om-nom-nom :P" << endl;
       }
       else {
-        cout << "Sin pastel :(";
+        cout << "No cake :(";
         break;
       }
     }
