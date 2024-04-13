@@ -111,6 +111,7 @@ void exercise_7(int n) {
   // TODO: YOUR CODE HERE
   double result;
   result = 0;
+  if (n > 0) {
   for(int i = 1; i <= n ; ++i) {
     result = result + ((-1) * pow(-1 , i)/i);
     if (i == n) {
@@ -119,6 +120,10 @@ void exercise_7(int n) {
     else if (n == 0 || n <0) {
       cout << "0" << endl;
     }
+  }
+  }
+  else {
+    cout << "0" << endl;
   }
 }
 
