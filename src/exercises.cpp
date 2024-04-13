@@ -95,7 +95,7 @@ int exercise_6(int n) {
     for (int i = 0; i <= n1.size() ; ++i) {
     string caracter;
     caracter = n1[i];
-    int caracter1 = u_int(caracter);
+    int caracter1 = int(caracter);
     int result;
     result = 0;
     result = result + caracter1;
