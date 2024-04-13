@@ -24,6 +24,7 @@ void exercise_2(string s1) {
     caracter = s1[i];
     if (caracter == " " || i == fin) {
       cout << "[" << word << "]" << endl ;
+      word = "";
     }
     else {
       word = word + caracter;
