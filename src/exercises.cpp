@@ -214,6 +214,15 @@ void exercise_11() {
 
 void exercise_12() {
   // TODO: YOUR CODE HERE
+  int U0 = 1;
+  double result;
+  result = U0;
+  for(int n = 0 ; n <= 9 ; ++n ) {
+    result = result/(n+1);
+    int sub = n + 1;
+    cout << "U" << sub << " = " << result << " V" << sub << " = 1" endl;
+
+  }
 }
 
 long exercise_13(int n, int k) {
