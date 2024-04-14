@@ -337,7 +337,7 @@ void exercise_5(int n, int k) {
       }
     }
   }
-  else if (n == 0) {
+  else if (n == 7) {
     cout << "                   1" << endl;
     for(int i = 2 ; i <= k ; ++i) {
       if (i < 9 && i != 2) {
