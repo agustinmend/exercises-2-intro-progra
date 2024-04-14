@@ -148,6 +148,7 @@ void exercise_9(string s) {
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
   int result ;
+  if (a > 0 && b > 0) {
   for( int i = 1 ; i <= a && i <= b ; ++i) {
     result = 1;
     int residuo1;
@@ -158,6 +159,10 @@ int exercise_10(int a, int b) {
       result = result * i;
     }
   }
+  }
+  else {
+    result = 0;
+  } 
   return result;
 }
 
