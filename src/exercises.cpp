@@ -253,7 +253,7 @@ void exercise_17(int n) {
     int residuo1;
     int residuo2;
     residuo1 = i % 2 ;
-    residuo2 = i % 3
+    residuo2 = i % 3 ;
     if (residuo1 == 0 && residuo2 == 0 ) {
       cuenta = cuenta +1;
       cout << i << " ";
