@@ -104,7 +104,7 @@ int exercise_6(int n) {
     }
     }
   }
-  return 0;
+  return result;
 }
 
 void exercise_7(int n) {
