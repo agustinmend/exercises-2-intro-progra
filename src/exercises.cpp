@@ -152,7 +152,7 @@ long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
   for ( int i = 0 ; i <= n ; ++i) {
     int result = 0;
-    long result = result + pow( i , k);
+    result = result + pow( i , k);
     if ( i == n) {
       cout << result << endl;
     } 
