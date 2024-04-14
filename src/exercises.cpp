@@ -120,10 +120,9 @@ void exercise_7(int n) {
 
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
-  bool result ;
   string word1 = "";
   string word2 = "";
-  for ( int i = 0 ; i <= s.size() ; ++i) {
+  for ( int i = 0 ; i < s.size() ; ++i) {
     char caracter;
     caracter = s[i];
     if( caracter == ' ') {
@@ -133,7 +132,7 @@ void exercise_8(string s) {
       word1 = word1 + caracter;
     }
   }
-  int i = s.size();
+  int i = s.size() - 1;
   for ( i ; i >= 0 ; --i) {
     char caracter2;
     caracter2 = s[i];
@@ -145,11 +144,9 @@ void exercise_8(string s) {
     }
   }
   if ( word1 == word2) {
-    result = true;
     cout << "YES" << endl;
   }
   else {
-    result = false;
     cout << "NO" << endl;
   }
 }
