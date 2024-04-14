@@ -37,7 +37,7 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
-  // TODO: YOUR CODE HERE
+  //  TODO: YOUR CODE HERE
   for ( int i = 0 ; i < 20; ++i) {
     string caracter;
     caracter = s1[i];
