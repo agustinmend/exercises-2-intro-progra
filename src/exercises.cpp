@@ -91,6 +91,7 @@ void exercise_5(int n, int k) {
 int exercise_6(int n) {
   // TODO: YOUR CODE HERE
   int result;
+  result = 0;
   for (n ; n>0 ; n =n/10 )  {
     result = result + n%10;
   }
