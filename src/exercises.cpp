@@ -345,11 +345,8 @@ void exercise_18_19(int debut, int fin) {
   if (debut >= fin) {
     cout << "El numero de fin no debe de ser menor al inicial" << endl;
   }
-  if (debut <= 0 || fin <= 0 ) {
+  else if (debut <= 0 || fin <= 0 ) {
     cout << "El numero debe de ser positivo y mayor a zero" << endl;
-  }
-  else if (debut >= fin) {
-    cout << "El numero de fin no debe de ser menor al inicial" << endl;
   }
   else {
     int contador;
