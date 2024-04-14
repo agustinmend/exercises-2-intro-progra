@@ -259,7 +259,7 @@ void exercise_5(int n, int k) {
   else if( n == 5 ) {
     cout << "             1  2  3" << endl;
     for(int i = 4 ; i <= k ; ++i) {
-      if (i < 4 && i == 1) {
+      if (i < 10 && i != 4) {
         i1 = to_string(i);
         espacios = "  ";
         word = word + espacios + i1;
