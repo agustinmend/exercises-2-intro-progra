@@ -206,7 +206,7 @@ void exercise_16(int divident, int divider) {
     cout << "0 0" << endl;
   }
   else if(divider == 0) {
-    cout << "" << endl;
+    cout << "";
   }
   else if (divident > 0 && divider > 0) {
   for (divident ; divident >= divider ; divident = divident - divider) {
