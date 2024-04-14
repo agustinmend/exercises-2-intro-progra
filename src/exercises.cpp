@@ -342,7 +342,7 @@ void exercise_17(int n) {
 
 void exercise_18_19(int debut, int fin) {
   // TODO: YOUR CODE HERE
-  if (debut >= fin) {
+  if (debut > fin) {
     cout << "El numero de fin no debe de ser menor al inicial" << endl;
   }
   else if (debut <= 0 || fin <= 0 ) {
