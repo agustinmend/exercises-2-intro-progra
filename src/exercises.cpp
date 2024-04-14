@@ -141,8 +141,8 @@ void exercise_12() {
 
 long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
+  int result = 0;
   for ( int i = 1 ; i <= n ; ++i) {
-    int result = 0;
     result = result + pow( i , k);
   }
   return result;
