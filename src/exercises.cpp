@@ -261,7 +261,7 @@ void exercise_17(int n) {
     residuo3 = i % primo;
     residuo1 = i % 2 ;
     residuo2 = i % 3 ;
-    if ( i == 2 || i == 3 || i == 5 || i = 7) {
+    if ( i == 2 || i == 3 || i == 5 || i == 7) {
       cuenta = cuenta + 1;
       cout << i << " ";
       primo = i;
