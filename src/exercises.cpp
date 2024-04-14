@@ -240,12 +240,14 @@ string exercise_14(int n) {
   string word1 = "";
   string word2 = "";
   for (int i = 0 ; i < n1.size() ; ++i) {
-    string caracter1 = n1[i];
+    string caracter1;
+    caracter1 = n1[i];
     word1 = word1 + caracter1;
   }
   int i = n1.size() - 1;
   for ( i ; i >= 0  ; ++i) {
-    string caracter2 = n1[i];
+    string caracter2;
+    caracter2 = n1[i];
     word2 = word2 + caracter2;
   }
   string result;
