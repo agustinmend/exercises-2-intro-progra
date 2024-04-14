@@ -120,6 +120,7 @@ void exercise_7(int n) {
 
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
+  
 }
 
 void exercise_9(string s) {
@@ -154,7 +155,14 @@ string exercise_14(int n) {
 }
 
 void exercise_15(int decimal) {
-  // TODO: YOUR CODE HERE
+  // TODO: YOUR CODE HERE`
+  string word = "";
+  int nro;
+  for(decimal ; decimal != 0 ; decimal = decimal/2) {
+    nro = decimal % 2;
+    word = nro + word;
+  }
+  cout << word << endl;
 }
 
 void exercise_16(int divident, int divider) {
