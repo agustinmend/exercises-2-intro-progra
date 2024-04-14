@@ -120,7 +120,38 @@ void exercise_7(int n) {
 
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
-  
+  bool result ;
+  string word1 = "";
+  string word2 = "";
+  for ( int i = 0 ; i <= s.size() ; ++i) {
+    string caracter;
+    caracter = s[i];
+    if( caracter == " ") {
+      continue ;
+    }
+    else {
+      word1 = word1 + caracter;
+    }
+  }
+  int i = s.size();
+  for ( i ; i >= 0 ; --i) {
+    string caracter2;
+    caracter2 = s[i];
+    if ( caracter2 == " ") {
+      continue;
+    }
+    else {
+      word2 = word2 + caracter2;
+    }
+  }
+  if ( word1 == word2) {
+    result = true;
+    cout << result << endl;
+  }
+  else {
+    result = false;
+    cout << result << endl;
+  }
 }
 
 void exercise_9(string s) {
