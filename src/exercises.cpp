@@ -236,7 +236,8 @@ long exercise_13(int n, int k) {
 
 string exercise_14(int n) {
   // TODO: YOUR CODE HERE
-  string n1 = to_string(n);
+  string n1;
+  n1 = to_string(n);
   string word1 = "";
   string word2 = "";
   for (int i = 0 ; i < n1.size() ; ++i) {
