@@ -86,6 +86,298 @@ void exercise_4(int n) {
 
 void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
+  string word;
+  word = "";
+  string espacios;
+  string i1;
+  int inicios;
+  if (n == 1) {
+    cout << " 1  2  3  4  5  6  7" << endl;
+    for(int i = 8 ; i <= k ; ++i) {
+      if (i < 8 && i != 1) {
+        i1 = to_string(i);
+        espacios = "  ";
+        word = word + espacios + i1;
+        if(word.size() == 20) {
+        cout << word << endl;
+        word = "";
+        }
+      }
+      else if(i < 15 && i >= 8 || i == 8 ) {
+        i1 = to_string(i);
+        espacios = " ";
+        word = word + espacios + i1;
+        if(word.size() == 20) {
+        cout << word << endl;
+        word = "";
+        }
+      }
+      else if( i >= 15) {
+          inicios = (i-1) % 7;
+          i1 = to_string(i);
+          espacios = " ";
+          if (inicios == 0) {
+              word = word + i1;
+          }
+          else {
+              word = word + espacios + i1;
+              if (word.size() == 20) {
+                  cout << word << endl;
+                  word = "";
+              }
+              else if( i == k) {
+                  cout << word << endl;
+              }
+          }
+      }
+    }
+  }
+  else if (n == 2) {
+    cout << "    1  2  3  4  5  6" << endl;
+    for(int i = 7 ; i <= k ; ++i) {
+      if (i < 7 && i != 2) {
+        i1 = to_string(i);
+        espacios = "  ";
+        word = word + espacios + i1;
+        if(word.size() == 20) {
+        cout << word << endl;
+        word = "";
+        }
+      }
+      else if(i < 14 && i >= 7 ) {
+        i1 = to_string(i);
+        espacios = " ";
+        word = word + espacios + i1;
+        if(word.size() == 20) {
+        cout << word << endl;
+        word = "";
+        }
+      }
+      else if( i >= 14) {
+          inicios = (i) % 7;
+          i1 = to_string(i);
+          espacios = " ";
+          if (inicios == 0) {
+              word = word + i1;
+          }
+          else {
+              word = word + espacios + i1;
+              if (word.size() == 20) {
+                  cout << word << endl;
+                  word = "";
+              }
+              else if( i == k) {
+                  cout << word << endl;
+              }
+          }
+      }
+    }
+  }
+  else if (n == 3) {
+    cout << "       1  2  3  4  5" << endl;
+    for(int i = 6 ; i <= k ; ++i) {
+      if (i < 6 && i != 1) {
+        i1 = to_string(i);
+        espacios = "  ";
+        word = word + espacios + i1;
+        if(word.size() == 20) {
+        cout << word << endl;
+        word = "";
+        }
+      }
+      else if(i < 13 && i >= 6 || i == 6 ) {
+        i1 = to_string(i);
+        espacios = " ";
+        word = word + espacios + i1;
+        if(word.size() == 20) {
+        cout << word << endl;
+        word = "";
+        }
+      }
+      else if( i >= 13) {
+          inicios = (i-6) % 7;
+          i1 = to_string(i);
+          espacios = " ";
+          if (inicios == 0) {
+              word = word + i1;
+          }
+          else {
+              word = word + espacios + i1;
+              if (word.size() == 20) {
+                  cout << word << endl;
+                  word = "";
+              }
+              else if( i == k) {
+                  cout << word << endl;
+              }
+          }
+      }
+    }
+  }
+  else if( n == 4) {
+    cout << "          1  2  3  4" << endl;
+    for(int i = 5 ; i <= k ; ++i) {
+      if (i < 5 && i != 1) {
+        i1 = to_string(i);
+        espacios = "  ";
+        word = word + espacios + i1;
+        if(word.size() == 20) {
+        cout << word << endl;
+        word = "";
+        }
+      }
+      else if(i < 12 && i >= 5 || i == 5 ) {
+        i1 = to_string(i);
+        espacios = " ";
+        word = word + espacios + i1;
+        if(word.size() == 20) {
+        cout << word << endl;
+        word = "";
+        }
+      }
+      else if( i >= 12) {
+          inicios = (i-5) % 7;
+          i1 = to_string(i);
+          espacios = " ";
+          if (inicios == 0) {
+              word = word + i1;
+          }
+          else {
+              word = word + espacios + i1;
+              if (word.size() == 20) {
+                  cout << word << endl;
+                  word = "";
+              }
+              else if( i == k) {
+                  cout << word << endl;
+              }
+          }
+      }
+    }
+  }
+  else if( n == 5 ) {
+    cout << "             1  2  3" << endl;
+    for(int i = 4 ; i <= k ; ++i) {
+      if (i < 4 && i != 1) {
+        i1 = to_string(i);
+        espacios = "  ";
+        word = word + espacios + i1;
+        if(word.size() == 20) {
+        cout << word << endl;
+        word = "";
+        }
+      }
+      else if(i < 11 && i >= 5 || i == 4 ) {
+        i1 = to_string(i);
+        espacios = " ";
+        word = word + espacios + i1;
+        if(word.size() == 20) {
+        cout << word << endl;
+        word = "";
+        }
+      }
+      else if( i >= 11) {
+          inicios = (i-4) % 7;
+          i1 = to_string(i);
+          espacios = " ";
+          if (inicios == 0) {
+              word = word + i1;
+          }
+          else {
+              word = word + espacios + i1;
+              if (word.size() == 20) {
+                  cout << word << endl;
+                  word = "";
+              }
+              else if( i == k) {
+                  cout << word << endl;
+              }
+          }
+      }
+    }
+  }
+  else if(n == 6) {
+    cout << "                1  2" << endl;
+    for(int i = 3 ; i <= k ; ++i) {
+      if (i < 3 && i != 1) {
+        i1 = to_string(i);
+        espacios = "  ";
+        word = word + espacios + i1;
+        if(word.size() == 20) {
+        cout << word << endl;
+        word = "";
+        }
+      }
+      else if(i < 10 && i >= 3 || i == 3 ) {
+        i1 = to_string(i);
+        espacios = " ";
+        word = word + espacios + i1;
+        if(word.size() == 20) {
+        cout << word << endl;
+        word = "";
+        }
+      }
+      else if( i >= 10) {
+          inicios = (i-3) % 7;
+          i1 = to_string(i);
+          espacios = " ";
+          if (inicios == 0) {
+              word = word + i1;
+          }
+          else {
+              word = word + espacios + i1;
+              if (word.size() == 20) {
+                  cout << word << endl;
+                  word = "";
+              }
+              else if( i == k) {
+                  cout << word << endl;
+              }
+          }
+      }
+    }
+  }
+  else if (n == 0) {
+    cout << "                   1" << endl;
+    for(int i = 2 ; i <= k ; ++i) {
+      if (i < 9 && i != 2) {
+        i1 = to_string(i);
+        espacios = "  ";
+        word = word + espacios + i1;
+        if(word.size() == 20) {
+        cout << word << endl;
+        word = "";
+        }
+      }
+      else if(i < 16 && i >= 9 || i == 2 ) {
+        i1 = to_string(i);
+        espacios = " ";
+        word = word + espacios + i1;
+        if(word.size() == 20) {
+        cout << word << endl;
+        word = "";
+        }
+      }
+      else if( i >= 16) {
+          inicios = (i-2) % 7;
+          i1 = to_string(i);
+          espacios = " ";
+          if (inicios == 0) {
+              word = word + i1;
+          }
+          else {
+              word = word + espacios + i1;
+              if (word.size() == 20) {
+                  cout << word << endl;
+                  word = "";
+              }
+              else if( i == k) {
+                  cout << word << endl;
+              }
+          }
+      }
+    }
+  }
 }
 
 int exercise_6(int n) {
