@@ -261,7 +261,7 @@ void exercise_17(int n) {
     else if (residuo1 != 0 && residuo2 != 0 ) {
       cuenta = cuenta +1;
       cout << i << " ";
-      if (cuenta == 4) {
+      if (cuenta == n) {
       break ;
       }
     }
