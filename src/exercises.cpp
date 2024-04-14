@@ -173,6 +173,7 @@ int exercise_10(int a, int b) {
 void exercise_11() {
   // TODO: YOUR CODE HERE
   int U0 = 1;
+  cout << "U0 = " << U0 << endl;
   double result;
   result = U0;
   for(int n = 0 ; n <= 9 ; ++n ) {
