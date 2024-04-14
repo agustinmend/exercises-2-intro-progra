@@ -160,7 +160,12 @@ void exercise_15(int decimal) {
   int nro;
   for(decimal ; decimal != 0 ; decimal = decimal/2) {
     nro = decimal % 2;
-    word = to_string(nro) + to_string(word);
+    if (nro == 0) {
+      word = "0" + word;
+    }
+    else if (nro == 1) {
+      word = "1" + word;
+    }
   }
   cout << word << endl;
 }
