@@ -236,8 +236,26 @@ long exercise_13(int n, int k) {
 
 string exercise_14(int n) {
   // TODO: YOUR CODE HERE
-  
-  return "";
+  string n1 = to_string(n);
+  string word1 = "";
+  string word2 = "";
+  for (int i = 0 ; i < n1.size() ; ++i) {
+    string caracter1 = n1[i];
+    word1 = word1 + caracter1;
+  }
+  int i = n1.size() - 1;
+  for ( i ; i >= 0  ; ++i) {
+    string caracter2 = n1[i];
+    word2 = word2 + caracter2;
+  }
+  string result;
+  if (word1 == word2) {
+    result = "Es palindrome";
+  }
+  else {
+    result = "No es palindrome";
+  }
+  return result;
 }
 
 void exercise_15(int decimal) {
