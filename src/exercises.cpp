@@ -342,4 +342,39 @@ void exercise_17(int n) {
 
 void exercise_18_19(int debut, int fin) {
   // TODO: YOUR CODE HERE
+  if (debut <= 0 && fin <- 0 ) {
+    cout << "El numero debe de ser positivo y mayor a zero" << endl;
+  }
+  else if (debut >= fin) {
+    cout << "El numero de fin no debe de ser menor al inicial" << endl;
+  }
+  else {
+    int contador;
+    contador = debut;
+    for (contador ; contador <= fin ; ++ contador) {
+      int cuenta;
+      cuenta = contador;
+      int contador2;
+      contador2 = 0;
+      for(contador2 ; cuenta != 0 ; cuenta) {
+        int residuo1;
+        int residuo2;
+        residuo1 = cuenta % 3;
+        residuo2 = cuenta % 4;
+        if (residuo1 == 0) {
+          cuenta = cuenta + 4;
+          contador2 = contador2 + 1;
+        }
+        else if (residuo2 == 0) {
+          cuenta = cuenta / 2;
+          contador2 = contador2 + 1;
+        }
+        else {
+          cuenta = cuenta - 1;
+          contador2 = contador2 + 1;
+        }
+      }
+      cout << contador << " -> " << contador2 << " " ;
+    }
+  }
 }
