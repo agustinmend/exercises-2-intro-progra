@@ -248,6 +248,20 @@ void exercise_16(int divident, int divider) {
 
 void exercise_17(int n) {
   // TODO: YOUR CODE HERE
+  int cuenta = 0;
+  for( int i = 1 ; i <= n ; ++i) {
+    int residuo1;
+    int residuo2;
+    residuo1 = i % 2 ;
+    residuo2 = i % 3
+    if (residuo1 == 0 && residuo2 == 0 ) {
+      cuenta = cuenta +1;
+      cout << i << " ";
+      if (cuenta == 4) {
+      break ;
+      }
+    }
+  }
 }
 
 void exercise_18_19(int debut, int fin) {
