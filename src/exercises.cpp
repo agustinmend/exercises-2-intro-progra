@@ -147,7 +147,14 @@ void exercise_9(string s) {
 
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
-  return 0;
+  int result ;
+  result = 1;
+  for( int i = 1 ; i < a && i < b ; i++) {
+    if( a % i = 0 && b % i = 0) {
+      result = result * i;
+    }
+  }
+  return result;
 }
 
 void exercise_11() {
