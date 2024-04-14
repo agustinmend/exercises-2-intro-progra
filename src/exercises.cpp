@@ -158,6 +158,9 @@ void exercise_15(int decimal) {
   // TODO: YOUR CODE HERE`
   string word = "";
   int nro;
+  if (decimal == 0) {
+  word = "0";
+  }
   for(decimal ; decimal != 0 ; decimal = decimal/2) {
     nro = decimal % 2;
     if (nro == 0) {
