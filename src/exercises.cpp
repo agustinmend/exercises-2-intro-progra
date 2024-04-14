@@ -249,11 +249,12 @@ void exercise_16(int divident, int divider) {
 void exercise_17(int n) {
   // TODO: YOUR CODE HERE
   int cuenta = 0;
+  int primo = 0;
   for( int i = 2 ; cuenta < n ; ++i) {
     int residuo1;
     int residuo2;
     int residuo3;
-    int primo;
+    residuo3 = primo % i;
     residuo1 = i % 2 ;
     residuo2 = i % 3 ;
     if ( i == 2 || i == 3) {
@@ -261,7 +262,6 @@ void exercise_17(int n) {
       cout << i << " ";
       primo = i;
     }
-    residuo3 = primo % i;
     else if (residuo1 != 0 && residuo2 != 0 && residuo3 == 0) {
       cuenta = cuenta +1;
       cout << i << " ";
