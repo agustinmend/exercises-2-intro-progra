@@ -256,7 +256,7 @@ void exercise_17(int n) {
     int residuo3;
     int residuo4;
     residuo4 = i % 5;
-    residuo3 = primo % i;
+    residuo3 = i % primo;
     residuo1 = i % 2 ;
     residuo2 = i % 3 ;
     if ( i == 2 || i == 3 || i == 5) {
