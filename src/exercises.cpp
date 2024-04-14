@@ -100,11 +100,11 @@ int exercise_6(int n) {
     result = 0;
     result = result + caracter1;
     if ( i == n1.size()) {
-      cout << result << endl;
+      return result;
     }
     }
   }
-  return result;
+  return 0;
 }
 
 void exercise_7(int n) {
