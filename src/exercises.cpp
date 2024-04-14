@@ -374,7 +374,7 @@ void exercise_18_19(int debut, int fin) {
           contador2 = contador2 + 1;
         }
       }
-      cout << contador << " -> " << contador2 << " " ;
+      cout << contador << " -> " << contador2 << endl ;
     }
   }
 }
