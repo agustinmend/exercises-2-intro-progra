@@ -169,6 +169,9 @@ void exercise_15(int decimal) {
     else if (nro == 0) {
       cout << "0" << endl;
     }
+    else {
+      word = "0";
+    }
   }
   cout << word << endl;
 }
