@@ -236,27 +236,37 @@ long exercise_13(int n, int k) {
 
 string exercise_14(int n) {
   // TODO: YOUR CODE HERE
-  string n1;
-  n1 = to_string(n);
   string word1 = "";
   string word2 = "";
-  for (int i = 0 ; i < n1.size() ; ++i) {
-    string caracter1;
-    caracter1 = n1[i];
-    word1 = word1 + caracter1;
+  string n1;
+  n1 = to_string(n);
+  string result;
+  for ( int i = 0 ; i < n1.size() ; ++i) {
+    char caracter;
+    caracter = n1[i];
+    if( caracter == ' ') {
+      word1 = word1 ;
+    }
+    else {
+      word1 = word1 + caracter;
+    }
   }
   int i = n1.size() - 1;
-  for ( i ; i >= 0  ; ++i) {
-    string caracter2;
+  for ( i ; i >= 0 ; --i) {
+    char caracter2;
     caracter2 = n1[i];
-    word2 = word2 + caracter2;
+    if ( caracter2 == ' ') {
+      word2 = word2;
+    }
+    else {
+      word2 = word2 + caracter2;
+    }
   }
-  string result;
-  if (word1 == word2) {
+  if ( word1 == word2) {
     result = "Es palindrome";
   }
   else {
-    result = "No es palindrome";
+    result = "No es palindrome"
   }
   return result;
 }
