@@ -125,6 +125,24 @@ void exercise_8(string s) {
 
 void exercise_9(string s) {
   // TODO: YOUR CODE HERE
+  int total = 0;
+  for (int i = 0 ; i <= s.size() ; ++i) {
+    char caracter = s[i];
+    if (s[i] == "f") {
+      total = total + 1;
+      if (total == "2") {
+        cout << s[i] << endl;
+        break;
+      }
+    }
+  }
+  if (total == 1) {
+    cout << "-1" << endl;
+  }
+  else if(total == 0) {
+    cout << "-2" << endl;
+  }
+
 }
 
 int exercise_10(int a, int b) {
@@ -151,6 +169,7 @@ long exercise_13(int n, int k) {
 
 string exercise_14(int n) {
   // TODO: YOUR CODE HERE
+  
   return "";
 }
 
