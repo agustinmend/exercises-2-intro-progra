@@ -202,10 +202,10 @@ void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
   int cociente;
   cociente = 0;
-  for (divident ; divider < divident ; divident = divident - divider) {
+  for (divident ; divider <= divident ; divident = divident - divider) {
     cociente = cociente + 1;
   }
-  cout << cocient << " " << divident << endl;
+  cout << cociente << " " << divident << endl;
 }
 
 void exercise_17(int n) {
