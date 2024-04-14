@@ -128,7 +128,7 @@ void exercise_9(string s) {
   int total = 0;
   for (int i = 0 ; i <= s.size() ; ++i) {
     char caracter = s[i];
-    if (caracter == "f") {
+    if (caracter == 'f') {
       total = total + 1;
       if (total == 2) {
         cout << s[i] << endl;
