@@ -249,7 +249,7 @@ void exercise_16(int divident, int divider) {
 void exercise_17(int n) {
   // TODO: YOUR CODE HERE
   int cuenta = 0;
-  for( int i = 1 ; i <= n ; ++i) {
+  for( int i = 1 ; cuenta <=4 ; ++i) {
     int residuo1;
     int residuo2;
     residuo1 = i % 2 ;
