@@ -141,14 +141,11 @@ void exercise_12() {
 
 long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
-  for ( int i = 0 ; i <= n ; ++i) {
+  for ( int i = 1 ; i <= n ; ++i) {
     int result = 0;
     result = result + pow( i , k);
-    if ( i == n) {
-      cout << result << endl;
-    } 
   }
-  return 0;
+  return result;
 }
 
 string exercise_14(int n) {
