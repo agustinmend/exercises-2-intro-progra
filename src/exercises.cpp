@@ -126,7 +126,7 @@ void exercise_8(string s) {
   for ( int i = 0 ; i <= s.size() ; ++i) {
     char caracter;
     caracter = s[i];
-    if( caracter == " ") {
+    if( caracter == ' ') {
       continue ;
     }
     else {
@@ -137,7 +137,7 @@ void exercise_8(string s) {
   for ( i ; i >= 0 ; --i) {
     char caracter2;
     caracter2 = s[i];
-    if ( caracter2 == " ") {
+    if ( caracter2 == ' ') {
       continue;
     }
     else {
