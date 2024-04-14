@@ -127,7 +127,7 @@ void exercise_8(string s) {
     char caracter;
     caracter = s[i];
     if( caracter == ' ') {
-      continue ;
+      word1 = word1 ;
     }
     else {
       word1 = word1 + caracter;
@@ -138,7 +138,7 @@ void exercise_8(string s) {
     char caracter2;
     caracter2 = s[i];
     if ( caracter2 == ' ') {
-      continue;
+      word2 = word2;
     }
     else {
       word2 = word2 + caracter2;
