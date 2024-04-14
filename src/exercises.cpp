@@ -220,7 +220,7 @@ void exercise_12() {
   for(int n = 0 ; n <= 9 ; ++n ) {
     result = result/(n+1);
     int sub = n + 1;
-    cout << "U" << sub << " = " << result << " V" << sub << " = 1" endl;
+    cout << "U" << sub << " = " << result << " V" << sub << " = 1" << endl;
 
   }
 }
