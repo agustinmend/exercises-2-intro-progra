@@ -150,13 +150,14 @@ int exercise_10(int a, int b) {
   int result ;
   if (a > 0 && b > 0) {
   for( int i = 1 ; i <= a && i <= b ; ++i) {
-    result = 1;
+    maximo = 1;
     int residuo1;
     int residuo2;
     residuo1 = a % i;
     residuo2 = b % i;
     if( residuo1 == 0 && residuo2 == 0) {
-      result = result * i;
+      maximo = maximo * i;
+      result = maximo;
     }
   }
   }
