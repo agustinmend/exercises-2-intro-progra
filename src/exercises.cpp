@@ -266,7 +266,7 @@ string exercise_14(int n) {
     result = "Es palindrome";
   }
   else {
-    result = "No es palindrome"
+    result = "No es palindrome";
   }
   return result;
 }
