@@ -131,7 +131,7 @@ void exercise_9(string s) {
     if (caracter == 'f') {
       total = total + 1;
       if (total == 2) {
-        cout << s[i] << endl;
+        cout << i << endl;
         break;
       }
     }
