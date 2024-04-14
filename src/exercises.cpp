@@ -123,7 +123,7 @@ void exercise_8(string s) {
   bool result ;
   string word1 = "";
   string word2 = "";
-  for ( int i = 0 ; i <= s.size() ; ++i) {
+  for ( int i = 0 ; i < s.size() ; ++i) {
     string caracter;
     caracter = s[i];
     if( caracter == " ") {
