@@ -123,8 +123,8 @@ void exercise_8(string s) {
   bool result ;
   string word1 = "";
   string word2 = "";
-  for ( int i = 0 ; i < s.size() ; ++i) {
-    string caracter;
+  for ( int i = 0 ; i <= s.size() ; ++i) {
+    char caracter;
     caracter = s[i];
     if( caracter == " ") {
       continue ;
@@ -135,7 +135,7 @@ void exercise_8(string s) {
   }
   int i = s.size();
   for ( i ; i >= 0 ; --i) {
-    string caracter2;
+    char caracter2;
     caracter2 = s[i];
     if ( caracter2 == " ") {
       continue;
