@@ -372,7 +372,7 @@ void exercise_5(int n, int k) {
                   word = "";
               }
               else if( i == k) {
-                word = word + " "
+                word = word + " ";
                   cout << word << endl;
               }
           }
