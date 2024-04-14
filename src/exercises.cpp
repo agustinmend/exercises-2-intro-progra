@@ -173,6 +173,9 @@ void exercise_15(int decimal) {
       word = "0";
     }
   }
+  if (decimal = 0) {
+    word = "0";
+  }
   cout << word << endl;
 }
 
