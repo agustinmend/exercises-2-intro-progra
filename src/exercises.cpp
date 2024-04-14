@@ -160,7 +160,7 @@ int exercise_10(int a, int b) {
     }
   }
   }
-  else {
+  else if ( a == 0 || b = 0) {
     result = 0;
   } 
   return result;
