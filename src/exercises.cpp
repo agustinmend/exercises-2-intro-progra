@@ -130,7 +130,7 @@ void exercise_9(string s) {
     char caracter = s[i];
     if (s[i] == "f") {
       total = total + 1;
-      if (total == "2") {
+      if (total == 2) {
         cout << s[i] << endl;
         break;
       }
