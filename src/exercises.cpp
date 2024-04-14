@@ -94,7 +94,7 @@ void exercise_5(int n, int k) {
   if (n == 1) {
     cout << " 1  2  3  4  5  6  7" << endl;
     for(int i = 8 ; i <= k ; ++i) {
-      if (i < 8 && i != 1) {
+      if (i < 8 || i == 9) {
         i1 = to_string(i);
         espacios = "  ";
         word = word + espacios + i1;
