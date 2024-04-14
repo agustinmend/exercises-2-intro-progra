@@ -266,7 +266,7 @@ void exercise_17(int n) {
       cout << i << " ";
       primo = i;
     }
-    else if (residuo1 != 0 && residuo2 != 0 && residuo3 != 0 && residuo4 != 0 && residuo5 == 0) {
+    else if (residuo1 != 0 && residuo2 != 0 && residuo3 != 0 && residuo4 != 0 && residuo5 != 0) {
       cuenta = cuenta +1;
       cout << i << " ";
       primo = i;
