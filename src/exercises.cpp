@@ -90,21 +90,11 @@ void exercise_5(int n, int k) {
 
 int exercise_6(int n) {
   // TODO: YOUR CODE HERE
-  if (n > 0) {
-    string n1 = to_string(n);
-    for (int i = 0; i <= n1.size() ; ++i) {
-    char caracter;
-    caracter = n1[i];
-    int caracter1 = (int)caracter;
-    int result;
-    result = 0;
-    result = result + caracter1;
-    if ( i == n1.size()) {
-      return result;
-    }
-    }
+  int result;
+  for (n ; n>0 ; n =n/10 )  {
+    result = result + n%10;
   }
-  return 0;
+  return result;
 }
 
 void exercise_7(int n) {
