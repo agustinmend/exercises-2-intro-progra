@@ -150,7 +150,11 @@ int exercise_10(int a, int b) {
   int result ;
   result = 1;
   for( int i = 1 ; i < a && i < b ; i++) {
-    if( a % i = 0 && b % i = 0) {
+    int residuo1;
+    int residuo2;
+    residuo1 = a % i;
+    residuo2 = b % i;
+    if( residuo1 == 0 && residuo2 == 0) {
       result = result * i;
     }
   }
