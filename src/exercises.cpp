@@ -146,11 +146,11 @@ void exercise_8(string s) {
   }
   if ( word1 == word2) {
     result = true;
-    cout << result << endl;
+    cout << "YES" << endl;
   }
   else {
     result = false;
-    cout << result << endl;
+    cout << "NO" << endl;
   }
 }
 
