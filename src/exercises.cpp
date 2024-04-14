@@ -148,8 +148,8 @@ void exercise_9(string s) {
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
   int result ;
-  result = 1;
   for( int i = 1 ; i < a && i < b ; i++) {
+    result = 1;
     int residuo1;
     int residuo2;
     residuo1 = a % i;
